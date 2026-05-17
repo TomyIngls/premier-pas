@@ -17,6 +17,9 @@ export default function Home() {
             <span className="font-bold text-gray-800">PremierPas</span>
           </div>
           <div className="flex gap-3">
+            <button onClick={() => router.push('/game')} className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 font-bold">
+              🎮 Jouer
+            </button>
             <button onClick={() => router.push('/login')} className="px-4 py-2 text-blue-600 hover:underline">
               Connexion
             </button>
